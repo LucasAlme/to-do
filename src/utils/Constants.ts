@@ -6,7 +6,7 @@ const color = {
     cinzaEscuro2: "#666666",
     cinzaClaro: "#EBEBEB",
     cinzaClaro2: "rgba(196, 196, 196, 1)",
-    verde: "#1DB863;"
+    verde: "#1DB863"
 }
 
 

@@ -7,24 +7,52 @@ export const styles = StyleSheet.create({
         width: '100%',
         height: 48,
         justifyContent: 'center',
-        marginTop: 152
+
     },
     gradient: {
         height: '100%',
         width: '100%',
     },
     title: {
-        color: color.cinzaEscuro2,
         fontSize: 14,
-        paddingBottom: 8
+        paddingLeft: 31,
+        color: color.cinzaEscuro2
+    },
+    titleChecked: {
+        color: color.verde,
+        fontSize: 14,
+        paddingLeft: 31,
+        textDecorationColor: color.verde,
+        textDecorationLine: 'line-through'
     },
     content: {
+        flex: 1,
         flexDirection: 'row',
         alignItems: 'center',
-        
+
     },
-    checkBoxStyle: {
-        height:'100%',
-        paddingTop: 15
+    button: {
+        height: 24,
+        width: 24,
+        borderWidth: 1.5,
+        borderColor: color.cinza,
+        borderRadius: 4,
+        marginLeft: 24,
+
+    },
+    buttonChecked: {
+        height: 24,
+        width: 24,
+        borderWidth: 1.5,
+        borderColor: color.verde,
+        borderRadius: 4,
+        marginLeft: 24,
+        backgroundColor: color.verde
+    },
+    rightContent: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        width: '82%'
     }
+
 });
